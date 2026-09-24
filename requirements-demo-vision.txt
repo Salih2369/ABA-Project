@@ -1,0 +1,9 @@
+# Optional heavy inference environment only (prefer approved Colab compute).
+# The dashboard and temporal engine run on Python 3.11+ stdlib alone.
+# Pin the detector/tracker release observed in the authorized Colab run.
+ultralytics==8.4.142
+# Install the reviewed tracker assignment backend before first inference; avoid runtime auto-install/restart.
+lap>=0.5.12,<0.6
+opencv-python>=4.9,<5
+matplotlib>=3.8,<4
+Pillow>=10,<13

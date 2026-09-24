@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="aba-token" content="__ABA_TOKEN__"><title>مرافق الجلسة | مراجعة مرئية</title>
+<style nonce="__CSP_NONCE__">
+:root{color-scheme:light;--bg:#f4f6f4;--paper:#fff;--ink:#243b36;--muted:#677772;--line:#dee6e1;--accent:#216b59;--soft:#eaf3ee;--amber:#8b5716;--amber-bg:#fcf4e7;--radius:14px}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 Tahoma,"Segoe UI",Arial,sans-serif}button,input,select,textarea{font:inherit}button,.file-button,select{min-height:44px;border:1px solid var(--line);border-radius:9px;background:var(--paper);color:var(--ink);padding:9px 15px}button,.file-button,summary{cursor:pointer}button:hover,.file-button:hover{background:var(--soft)}button:disabled{opacity:.45;cursor:not-allowed}button.primary,.file-button.primary{background:var(--accent);border-color:var(--accent);color:white}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,.file-button:focus-within{outline:3px solid #be843c;outline-offset:3px}.file-button{display:inline-flex;align-items:center;position:relative;overflow:hidden}.file-button input{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}.skip{position:fixed;top:-70px;background:white;padding:12px;z-index:5}.skip:focus{top:0}header{background:var(--paper);border-bottom:1px solid var(--line)}.topbar{max-width:1480px;margin:auto;padding:18px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px}.mark{height:40px;width:40px;border-radius:12px;background:var(--accent);color:white;display:grid;place-items:center;font-size:22px;font-weight:bold}.brand strong{font-size:18px}.brand small{display:block;font-size:11px;letter-spacing:.1em;color:var(--muted)}.status{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:13px}.dot{width:7px;height:7px;border-radius:50%;background:#6a8076}.badge{border:1px solid var(--line);border-radius:20px;padding:5px 12px;display:inline-block;font-size:12px;color:var(--muted);background:white}.badge.precomputed{background:var(--amber-bg);color:var(--amber);border-color:#e8d6b8}main{max-width:1480px;margin:auto;padding:28px 32px 20px}.page-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:22px}h1{font-size:26px;margin:0 0 5px;font-weight:700}h2{font-size:16px;margin:0}h3{font-size:14px;margin:0}p{margin:7px 0}.muted{color:var(--muted);font-size:13px}.disclaimer{border:1px solid #e6d9c4;background:#faf6ee;color:#765727;padding:11px 16px;border-radius:9px;font-size:12px;margin-bottom:22px}.workspace{display:grid;grid-template-columns:minmax(0,1fr) 335px;gap:22px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:17px 20px;border-bottom:1px solid var(--line)}.panel-body{padding:18px 20px}.video-stage{background:#1d2926;aspect-ratio:16/9;position:relative;display:grid;place-items:center}.video-stage video{width:100%;height:100%;max-height:60vh;display:block}.video-stage video[hidden]{display:none}.video-empty{text-align:center;color:#d5e1d9;padding:26px;max-width:440px}.video-symbol{border:1px solid #53685e;border-radius:16px;width:66px;height:50px;margin:0 auto 18px;display:grid;place-items:center;font-size:20px}.video-empty h2{font-size:19px}.video-empty p{color:#adbdb4;font-size:13px;margin:10px 0 20px}.transport{display:flex;align-items:center;gap:9px;padding:12px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap}.clock{font:13px Consolas,monospace;margin-inline-start:auto;direction:ltr;color:var(--muted)}.import-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:16px}.file-detail{flex:1;min-width:150px;overflow-wrap:anywhere;font-size:12px;color:var(--muted)}.session-context{padding:18px 20px}.session-context label{display:block;font-size:13px;font-weight:bold;margin-bottom:9px}.session-context select{width:100%}.identity{display:flex;align-items:center;gap:9px;margin-top:16px;border-top:1px solid var(--line);padding-top:14px;font-size:12px}.review-box{margin-top:18px}.review-empty{padding:24px 20px;color:var(--muted);font-size:13px}.review-empty strong{display:block;color:var(--ink);margin-bottom:7px}.alert-body{padding:18px 20px;background:var(--amber-bg)}.alert-body p{font-size:13px}.alert-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.alert-actions button{font-size:12px;padding:7px 10px}.note{padding:16px 20px;border-top:1px solid var(--line)}.note label{font-size:12px;display:block;margin-bottom:8px}.note select{width:100%;font-size:12px}.note button{margin-top:9px;font-size:12px;width:100%}.indicators-heading{display:flex;justify-content:space-between;align-items:center;margin:24px 0 13px;gap:12px}.indicators{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.indicator{padding:16px 14px;background:white;border:1px solid var(--line);border-radius:12px;min-height:182px}.indicator h3{font-size:13px;min-height:26px}.indicator .state{display:inline-block;margin:13px 0 11px;font-size:12px;background:#f0f3f1;border-radius:6px;padding:4px 8px;color:#617168}.indicator[data-state="active"] .state{color:var(--amber);background:var(--amber-bg)}.indicator[data-state="candidate"] .state{background:#f5f1e5;color:#71602b}.indicator .metric{font-size:12px;color:var(--muted)}.indicator .metric b{font-weight:normal;color:var(--ink)}.indicator .basis{font-size:10px;color:var(--muted);margin-top:8px;line-height:1.6}.timeline-panel{margin-top:20px}.timeline{list-style:none;padding:0;margin:0;max-height:250px;overflow:auto}.timeline li{border-top:1px solid var(--line);padding:11px 20px;display:flex;align-items:center;gap:14px;font-size:13px}.timeline li:first-child{border-top:0}.timeline button{margin-inline-start:auto;font-size:12px;padding:5px 10px}.timeline time{font:12px Consolas,monospace;color:var(--muted);direction:ltr}.timeline-empty{padding:20px;color:var(--muted);font-size:13px}.guide{margin-top:20px}.guide summary{padding:14px 20px;font-size:13px}.guide-content{padding:0 22px 18px;color:var(--muted);font-size:12px}.guide-content code{direction:ltr;unicode-bidi:embed;color:var(--ink)}footer{display:flex;justify-content:space-between;gap:12px;margin-top:22px;color:var(--muted);font-size:11px}.message{padding:12px 16px;border:1px solid #dfbbab;background:#fff3ec;border-radius:9px;margin-bottom:16px;color:#873f29;font-size:13px}.progress{color:var(--muted);font-size:12px}.context-notice{margin:14px 18px 0}.context-body{padding:16px 20px}.context-grid{display:grid;grid-template-columns:auto 1fr;gap:7px 12px;margin:0}.context-grid dt{color:var(--muted);font-size:12px}.context-grid dd{margin:0;font-weight:bold}.context-evidence{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}.context-evidence button{font-size:12px;padding:6px 10px}.context-review{border:0;border-top:1px solid var(--line);margin:16px -20px -16px;padding:14px 20px}.context-review legend{font-size:12px;font-weight:bold;padding-top:12px}.context-review-actions{display:flex;gap:7px;flex-wrap:wrap}.context-review-actions button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:white}.context-provenance{border-top:1px solid var(--line);padding:10px 20px;font-size:12px}.context-provenance p{color:var(--muted)}.context-panel[aria-disabled="true"]{background:#fafbfa}.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}[hidden]{display:none!important}
+@media(min-width:1550px){.workspace{grid-template-columns:minmax(0,1fr) 360px}}@media(max-width:1050px){.workspace{grid-template-columns:minmax(0,1fr) 285px}.indicators{grid-template-columns:repeat(3,minmax(0,1fr))}main{padding:22px}.topbar{padding:16px 22px}}@media(max-width:760px){.workspace{grid-template-columns:1fr}.indicators{grid-template-columns:repeat(2,minmax(0,1fr))}.page-heading,.topbar{align-items:flex-start;flex-wrap:wrap}.topbar{gap:8px}.page-heading h1{font-size:22px}main{padding:18px 14px}.panel-head{padding:14px 16px}footer{flex-direction:column}.badge{font-size:11px}.status{font-size:11px}.indicators-heading{align-items:flex-start;flex-direction:column}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style></head>
+<body>
+<a class="skip" href="#main">انتقل إلى محتوى الجلسة</a>
+<header><div class="topbar"><div class="brand"><span class="mark" aria-hidden="true">م</span><div><strong>مرافق الجلسة</strong><small>ABA · OBSERVATION WORKSPACE</small></div></div><div class="status" role="status"><span class="dot" aria-hidden="true"></span><span id="systemStatus">جارٍ التحقق من الخادم المحلي</span><span class="badge">نسخة تجريبية محلية</span></div></div></header>
+<main id="main">
+<div class="page-heading"><div><h1>مساعد الجلسة — عرض تجريبي</h1><p class="muted">أثناء تشغيل الجلسة: شاهد السياق أولاً، والإشارة مساعدة وليست حكماً.</p></div><span id="modeBadge" class="badge">لم تُحمّل بيانات تحليل</span></div>
+<div class="disclaimer"><strong>للمراجعة البشرية فقط.</strong> مؤشرات مرئية تجريبية وعتبات أولية؛ ليست تشخيصاً، ولا قياساً للانتباه أو المشاعر، ولا توصية علاجية. غياب الإشارة لا يعني غياب السلوك.</div>
+<div id="error" class="message" role="alert" hidden></div>
+<div id="provenance" class="disclaimer" dir="auto" hidden></div>
+<div class="workspace">
+<section class="panel" aria-labelledby="videoTitle"><div class="panel-head"><h2 id="videoTitle">فيديو الجلسة</h2><span class="muted">محلي · دون رفع الفيديو</span></div><div class="video-stage"><video id="video" controls playsinline preload="metadata" aria-label="فيديو الجلسة المحلي" hidden></video><div id="videoEmpty" class="video-empty"><div class="video-symbol" aria-hidden="true">▷</div><h2>ابدأ بفيديو الجلسة</h2><p>اختر نسخة الفيديو التي حلّلتها مسبقاً. يبقى الملف داخل متصفحك؛ لا يبدأ تحليل مرئي بمجرد اختياره.</p><label class="file-button primary">اختيار فيديو محلي<input id="videoFile" type="file" accept="video/*,.mkv" aria-label="اختيار فيديو محلي"></label></div></div><div class="transport"><button id="play" class="primary" disabled>تشغيل</button><button id="restart" disabled>من البداية</button><label class="file-button">تغيير الفيديو<input id="changeVideo" type="file" accept="video/*,.mkv" aria-label="تغيير فيديو الجلسة"></label><span id="clock" class="clock">00:00 / 00:00</span></div><div class="import-row"><label class="file-button">استيراد نتائج JSON<input id="jsonFile" type="file" accept=".json,application/json" aria-label="استيراد نتائج التتبع مسبقة الحساب"></label><div class="file-detail"><div id="fileName">لم يُحدد فيديو بعد</div><div id="jsonName">لم يُحدد ملف نتائج بعد</div><div id="sourceStatus" role="status" aria-live="polite">اختر الفيديو وملف النتائج المطابق من Colab.</div></div></div><div class="import-row"><label class="file-button">استيراد سياق JSON اختياري<input id="contextFile" type="file" accept=".json,application/json" aria-label="استيراد ملف السياق المرئي الاختياري"></label><div class="file-detail"><div id="contextName">لم يُحدد ملف سياق</div><div id="contextStatus" role="status" aria-live="polite">السياق المرئي اختياري ولا يؤثر في إعادة تشغيل التتبع.</div></div></div></section>
+<aside><section class="panel" aria-labelledby="contextTitle"><div class="panel-head"><h2 id="contextTitle">سياق النشاط اليدوي</h2><span class="badge">يدوي</span></div><div class="session-context"><label for="activity">النشاط في هذا المقطع</label><select id="activity"><option value="table">نشاط على الطاولة</option><option value="movement">نشاط حركي</option><option value="break">استراحة</option></select><p class="muted">يسري تغيير النشاط من ثانية العرض الحالية. تبقى أحداث النشاط السابق، وتُحفظ حدود النشاط عند الرجوع وإعادة التشغيل.</p><div class="identity"><span class="dot" aria-hidden="true"></span><span id="identityStatus">الطفل المستهدف: لم تُحمّل بيانات الهوية</span></div></div></section>
+<section id="contextPanel" class="panel review-box context-panel" aria-labelledby="visualContextTitle" aria-disabled="true"><div class="panel-head"><h2 id="visualContextTitle">السياق المرئي المقترح</h2><span id="contextBadge" class="badge">غير مفعّل</span></div><p class="disclaimer context-notice"><strong>تجريبي وغير تشخيصي.</strong> لا يصف الانتباه أو النية أو المشاعر، ولا يقدم توصية علاجية.</p><div id="contextEmpty" class="review-empty" role="status" aria-live="polite"><strong>لا يوجد سياق مرئي معروض</strong>استيراد السياق اختياري. لن تظهر أي نافذة قبل اكتمالها زمنياً ومطابقة بصماتها.</div><div id="contextCard" class="context-body" hidden><dl class="context-grid"><dt>النشاط المقترح</dt><dd id="contextActivity"></dd><dt>حالة النشاط</dt><dd id="contextActivityStatus"></dd><dt>تفاعل الهدف مع المواد</dt><dd id="contextMaterial"></dd><dt>تفاعل بالغ مع الهدف ظاهر</dt><dd id="contextAdult"></dd></dl><div><h3>أوقات الدليل المتاحة</h3><div id="contextEvidence" class="context-evidence"></div></div><fieldset class="context-review"><legend>مراجعة بشرية محلية لهذا المقطع</legend><div class="context-review-actions"><button id="contextReviewPending" type="button" aria-pressed="false" disabled>قيد المراجعة</button><button id="contextReviewConfirm" type="button" aria-pressed="false" disabled>تأكيد</button><button id="contextReviewReject" type="button" aria-pressed="false" disabled>رفض</button></div><p id="contextReviewStatus" class="muted" role="status" aria-live="polite">لا تغيّر المراجعة ملف السياق أو محرك المؤشرات.</p></fieldset></div><details id="contextProvenance" class="context-provenance" hidden><summary id="contextProvenanceSummary"></summary><p id="contextProvenanceDetail"></p></details></section>
+<section class="panel review-box" aria-labelledby="reviewTitle"><div class="panel-head"><h2 id="reviewTitle">إشارة للمراجعة</h2><span class="muted">واحدة في كل مرة</span></div><div id="alertEmpty" class="review-empty"><strong>لا توجد إشارة معروضة</strong>ستظهر إشارة هنا عند استيفاء القواعد الزمنية في البيانات المرصودة، وليس عند تحميل الفيديو وحده.</div><div id="alertCard" class="alert-body" hidden><h3 id="alertTitle"></h3><p id="alertEvidence"></p><p class="muted">راجع اللقطة والسياق قبل تفسير المؤشر.</p><div class="alert-actions"><button id="seekEvidence">شاهد الدليل</button><button id="snooze">كتم ٦٠ ثانية من الفيديو</button></div></div><div class="note"><label for="feedback">ملاحظة المراجع — حفظ محلي فقط</label><select id="feedback" disabled><option value="useful">الإشارة مفيدة للمراجعة</option><option value="false_positive">الإشارة غير مناسبة للسياق</option><option value="uncertain">لا يمكن الحكم من اللقطة</option></select><button id="saveReview" disabled>حفظ الملاحظة</button><p id="reviewStatus" class="muted" role="status">لا تُرسل الملاحظات ولا تُستخدم لتعديل النموذج.</p></div></section></aside>
+</div>
+<div class="indicators-heading"><h2>المؤشرات المرئية الخمسة</h2><span id="sampleStatus" class="progress">بانتظار بيانات مرصودة · لا توجد نتائج افتراضية</span></div>
+<section class="indicators" aria-label="المؤشرات التجريبية">
+<article class="indicator" data-indicator="orientation"><h3>الاتجاه نحو المهمة</h3><span class="state">غير قابل للرصد</span><div class="metric">المدة <b class="duration">—</b> · الحلقات <b class="count">—</b></div><div class="metric">وقت الرصد <b class="observable">—</b></div><p class="basis">تقريب لاتجاه الرأس؛ ليس قياساً للنظر أو الانتباه.</p></article>
+<article class="indicator" data-indicator="body_motion"><h3>حركة الجسم</h3><span class="state">غير قابل للرصد</span><div class="metric">المدة <b class="duration">—</b> · الحلقات <b class="count">—</b></div><div class="metric">وقت الرصد <b class="observable">—</b></div><p class="basis">حركة الجذع والمفاصل المرئية؛ لا تصف حالة الطفل.</p></article>
+<article class="indicator" data-indicator="out_of_seat"><h3>مغادرة المقعد</h3><span class="state">غير قابل للرصد</span><div class="metric">المدة <b class="duration">—</b> · الحلقات <b class="count">—</b></div><div class="metric">وقت الرصد <b class="observable">—</b></div><p class="basis">تحتاج منطقة مقعد ووضعية واضحة؛ مرتبطة بالنشاط.</p></article>
+<article class="indicator" data-indicator="hand_motion"><h3>حركة اليدين</h3><span class="state">غير قابل للرصد</span><div class="metric">المدة <b class="duration">—</b> · الحلقات <b class="count">—</b></div><div class="metric">وقت الرصد <b class="observable">—</b></div><p class="basis">تقريب حركي تجريبي؛ ليس تصنيفاً للحركات النمطية.</p></article>
+<article class="indicator" data-indicator="posture_change"><h3>تغيّر الوضعية</h3><span class="state">غير قابل للرصد</span><div class="metric">المدة <b class="duration">—</b> · الحلقات <b class="count">—</b></div><div class="metric">وقت الرصد <b class="observable">—</b></div><p class="basis">انتقال مرئي بين وضعيات مستقرة عند وضوح المفاصل.</p></article>
+</section>
+<section class="panel timeline-panel" aria-labelledby="timelineTitle"><div class="panel-head"><h2 id="timelineTitle">الخط الزمني للمراجعة</h2><span id="eventCount" class="muted">لا أحداث مرصودة</span></div><div id="timelineEmpty" class="timeline-empty">تظهر الأحداث المرصودة حتى ثانية العرض فقط. لن تُكشف نتائج مستقبلية.</div><ol id="timeline" class="timeline"></ol></section>
+<details class="panel guide"><summary>كيف أجهّز الجلسة؟ وما حدود هذه النسخة؟</summary><div class="guide-content"><ol><li>حلّل الفيديو بمسار Colab المرفق، وحدّد الطفل المستهدف ومناطق المهمة والمقعد هناك.</li><li>اختر الفيديو الأصلي وملف تتبعه، ثم استورد ملف السياق المرئي اختيارياً. تُطابق بصمات SHA-256 قبل تفعيل كل لوحة.</li><li>شغّل الفيديو. يعيد الخادم تطبيق القواعد الزمنية على العينات السابقة لموضع العرض فقط، ويظهر مقطع السياق بعد اكتمال وقت نهايته. الرجوع يعيد الحساب والعرض حتمياً.</li></ol><p><strong>هذه الواجهة تعرض نتائج مسبقة الحساب، وليست استدلالاً مرئياً جديداً.</strong> السياق المرئي المقترح منفصل عن محرك المؤشرات والنشاط اليدوي، ومراجعته تُحفظ في هذا المتصفح دون تعديل الملف المستورد.</p><p>ملف التتبع المطلوب: <code>schema_version: 1</code>، <code>mode: "precomputed"</code>، <code>source.sha256</code>، ومصفوفة <code>observations</code> بتوقيت متزايد. ملف السياق الاختياري يتبع عقد <code>schema_version: 1</code> المستقل ويرتبط ببصمة الفيديو وبايتات ملف التتبع الدقيقة.</p><p>استورد فقط ملفات تثق بمصدرها؛ تطابق البصمة يثبت تطابق البايتات لا صحة التحليل. الملفات الكبيرة قد تستهلك ذاكرة المتصفح. استخدم مقطعاً محلياً قصيراً وترميزاً يدعمه المتصفح مثل MP4/H.264. جلسة خادم واحدة فقط؛ لا تفتح تبويبات متزامنة.</p></div></details>
+<footer><span>القرار للمختص. النظام يساعد على تنظيم الملاحظة فقط.</span><span>محلي أولاً · دون خطوط أو خدمات خارجية · لا بيانات مصطنعة</span></footer>
+</main>
+<script nonce="__CSP_NONCE__">
+'use strict';
+const KEYS = ['orientation','body_motion','out_of_seat','hand_motion','posture_change'];
+const CONTEXT_LABELS = Object.freeze({
+  activity_suggestion:Object.freeze({table:'نشاط على الطاولة',movement:'نشاط حركي',break:'استراحة',transition:'انتقال بين الأنشطة',unclear:'غير واضح'}),
+  activity_status:Object.freeze({supported:'مدعوم بالمشهد',ambiguous:'ملتبس',not_observable:'غير قابل للرصد'}),
+  interaction:Object.freeze({yes:'نعم',no:'لا',ambiguous:'ملتبس',not_observable:'غير قابل للرصد'}),
+  review:Object.freeze({pending:'قيد المراجعة',confirmed:'مؤكد من المراجع',rejected:'مرفوض من المراجع'})
+});
+function isObject(value) { return value !== null && typeof value === 'object' && !Array.isArray(value); }
+function freezeContextDocument(value) {
+  if(Array.isArray(value)) return Object.freeze(value.map(freezeContextDocument));
+  if(isObject(value)) return Object.freeze(Object.fromEntries(Object.entries(value).map(([key,item])=>[key,freezeContextDocument(item)])));
+  return value;
+}
+function visibleContextSegment(segments, time) {
+  if(!Array.isArray(segments)||!Number.isFinite(time)||time<0)return null;
+  let visible=null;
+  for(const segment of segments) {
+    if(segment.end_time>time)break;
+    visible=segment;
+  }
+  return visible;
+}
+function contextProvenanceDisclosure(provenance) {
+  const external=provenance?.external_processing===true;
+  return external ? {summary:'معالجة خارجية',detail:'عولجت الصور خارج الجهاز وفق موافقة مستقلة. لا تعرض هذه الصفحة نص المزوّد.'} :
+    {summary:'معالجة محلية',detail:'أُنشئ السياق بمعالجة محلية. لا تعرض هذه الصفحة نص المزوّد.'};
+}
+const CONTEXT_REVIEW_PREFIX='aba-demo-context-review-v1:';
+function contextReviewKey(sourceHash, trackingHash, contextHash, segmentId) {
+  const hashes=[sourceHash,trackingHash,contextHash];
+  if(hashes.some(value=>typeof value!=='string'||!/^[a-f0-9]{64}$/.test(value))||
+      typeof segmentId!=='string'||!/^[A-Za-z0-9][A-Za-z0-9_-]{0,63}$/.test(segmentId))
+    throw new Error('Invalid context review identity');
+  return CONTEXT_REVIEW_PREFIX+hashes.join(':')+':'+segmentId;
+}
+function readContextReview(storage, sourceHash, trackingHash, contextHash, segmentId, fallback='pending') {
+  const value=storage.getItem(contextReviewKey(sourceHash,trackingHash,contextHash,segmentId));
+  return ['pending','confirmed','rejected'].includes(value) ? value : fallback;
+}
+function writeContextReview(storage, sourceHash, trackingHash, contextHash, segmentId, value) {
+  if(!['pending','confirmed','rejected'].includes(value))throw new Error('Invalid context review state');
+  const key=contextReviewKey(sourceHash,trackingHash,contextHash,segmentId);
+  storage.setItem(key,value);
+  if(storage.getItem(key)!==value)throw new Error('Context review was not saved');
+  return value;
+}
+function decodeJsonBytes(rawBytes) {
+  const bytes=rawBytes instanceof Uint8Array ? rawBytes : new Uint8Array(rawBytes);
+  return new TextDecoder('utf-8',{fatal:true}).decode(bytes);
+}
+function parseContextJsonBytes(rawBytes) {
+  return JSON.parse(decodeJsonBytes(rawBytes),(key,value)=>{
+    if(typeof value==='number'&&!Number.isFinite(value))throw new Error('يلزم أرقام JSON محدودة.');
+    return value;
+  });
+}
+function parseDataset(text) {
+  if (text.length > 20 * 1024 * 1024) throw new Error('ملف JSON أكبر من الحد المسموح: ٢٠ ميغابايت.');
+  const data = JSON.parse(text, (key, value) => {
+    if (typeof value === 'number' && !Number.isFinite(value)) throw new Error('يلزم أرقام JSON محدودة.');
+    return value;
+  });
+  if (!isObject(data) || data.schema_version !== 1 || data.mode !== 'precomputed')
+    throw new Error('يلزم ملف schema_version=1 و mode=precomputed. لا تُقبل نتائج الاختبار الاصطناعية.');
+  if (!isObject(data.source) || typeof data.source.sha256 !== 'string' || !/^[a-f0-9]{64}$/.test(data.source.sha256))
+    throw new Error('بصمة الفيديو source.sha256 مفقودة أو غير صالحة.');
+  if (!Array.isArray(data.observations) || !data.observations.length || data.observations.length > 100000)
+    throw new Error('يلزم observations غير فارغ وبحد أقصى ١٠٠ ألف عينة.');
+  let previous = -1;
+  for (const row of data.observations) {
+    if (!isObject(row) || typeof row.time !== 'number' || !Number.isFinite(row.time) || row.time < 0 || row.time <= previous)
+      throw new Error('أزمنة العينات يجب أن تكون ثواني موجبة أو صفراً، ومتزايدة دون تكرار.');
+    if (!['confirmed','uncertain'].includes(row.identity) || !isObject(row.signals) ||
+        Object.keys(row.signals).some(k=>!KEYS.includes(k)) ||
+        !KEYS.every(k => Object.hasOwn(row.signals,k) && (row.signals[k] === null || typeof row.signals[k] === 'boolean')))
+      throw new Error('كل عينة تحتاج حالة هوية والإشارات الخمس بقيم true أو false أو null.');
+    if (row.values !== undefined && !isObject(row.values)) throw new Error('values يجب أن يكون كائناً.');
+    previous = row.time;
+  }
+  return data;
+}
+function provenanceLabel(value) {
+  if (value == null) return '';
+  if (typeof value === 'string') return value;
+  if (!isObject(value)) return '';
+  const text = item => typeof item === 'string' ? item.slice(0,160) :
+    (typeof item === 'boolean' || (typeof item === 'number' && Number.isFinite(item))) ? item : undefined;
+  const config = isObject(value.config) ? value.config : {};
+  const quality = isObject(value.quality) ? value.quality : {};
+  const initial = isObject(value.initial_selection) ? value.initial_selection : {};
+  const summary = {
+    run_id: text(value.run_id), analysis_mode: text(value.analysis_mode),
+    adapter: text(value.adapter), weights: text(value.weights), tracker: text(value.tracker),
+    config_sha256: text(value.config_sha256), decode_completion: text(value.decode_completion),
+    timestamp_basis: text(value.timestamp_basis), camera_stability: text(value.camera_stability),
+    clinical_validation: text(value.clinical_validation),
+    candidate_overlap_policy: text(config.candidate_overlap_policy), sample_hz: text(config.sample_hz),
+    initial_target_id: text(initial.target_id),
+    target_reselection_count: Array.isArray(value.applied_target_reselections) ? value.applied_target_reselections.length : 0,
+    causal_audit_frame_count: Array.isArray(value.causal_audit) ? value.causal_audit.length : text(quality.audited_frame_count),
+    quality: {
+      passed: text(quality.passed), uncertain_frames: text(quality.uncertain_frames),
+      audited_frame_count: text(quality.audited_frame_count), uncertain_fraction: text(quality.uncertain_fraction),
+      max_uncertain_fraction: text(quality.max_uncertain_fraction)
+    }
+  };
+  return JSON.stringify(summary, (key, item) => item === undefined ? undefined : item, 2);
+}
+function sourceMatches(data, hash) { return Boolean(data && hash && data.source.sha256 === hash); }
+async function sha256Hex(rawBytes) {
+  const bytes=rawBytes instanceof Uint8Array ? rawBytes : new Uint8Array(rawBytes);
+  const digest=await crypto.subtle.digest('SHA-256',bytes);
+  return Array.from(new Uint8Array(digest),byte=>byte.toString(16).padStart(2,'0')).join('');
+}
+async function validateContextBytes(fetcher, token, rawBytes, sourceDuration) {
+  const bytes=rawBytes instanceof Uint8Array ? rawBytes : new Uint8Array(rawBytes);
+  if(typeof fetcher!=='function'||typeof token!=='string'||!token||
+      !Number.isFinite(sourceDuration)||sourceDuration<=0)
+    throw new Error('تعذر التحقق من السياق دون فيديو صالح.');
+  if(bytes.byteLength>20*1024*1024)throw new Error('ملف السياق أكبر من ٢٠ ميغابايت.');
+  const response=await fetcher('/api/context/validate',{method:'POST',headers:{
+    'Content-Type':'application/json','X-ABA-Token':token,
+    'X-ABA-Source-Duration':String(sourceDuration)},body:bytes});
+  let result;
+  try{result=await response.json();}catch(_){throw new Error('استجابة التحقق من السياق غير صالحة.');}
+  if(!response.ok||result?.status!=='valid')throw new Error(result?.error||'لم يُقبل ملف السياق.');
+  return true;
+}
+function contextMatches(context, tracking, videoHash, trackingHash) {
+  return Boolean(context && tracking && videoHash && trackingHash &&
+    tracking.source?.sha256===videoHash && context.source_sha256===videoHash &&
+    context.tracking_candidate_sha256===trackingHash);
+}
+function dueObservations(rows, index, time) {
+  const due = [];
+  for (let i=index; i<rows.length && rows[i].time <= time; i++) due.push(rows[i]);
+  return due;
+}
+class CausalPlayer {
+  constructor(api, render, onError) {
+    this.api=api; this.render=render; this.onError=onError;
+    this.rows=[]; this.index=0; this.target=0; this.generation=0; this.applied=-1;
+    this.running=null; this.activity='table'; this.config={}; this.failed=false;
+    this.activityChanges=[{time:0,activity:'table'}]; this.activityIndex=0;
+  }
+  configure(rows, activity, config={}) {
+    this.rows=rows; this.activity=activity; this.config=config;
+    this.activityChanges=[{time:0,activity}];
+    this.generation++; this.failed=false; this.render(null);
+    return this.schedule();
+  }
+  activityAt(time) {
+    return this.activityChanges.filter(change=>change.time<=time).at(-1)?.activity || this.activity;
+  }
+  setActivity(activity, time) {
+    if(!['table','movement','break'].includes(activity)||!Number.isFinite(time)||time<0) throw new Error('Invalid activity boundary');
+    this.activityChanges=this.activityChanges.filter(change=>change.time!==time);
+    this.activityChanges.push({time,activity});this.activityChanges.sort((a,b)=>a.time-b.time);
+    this.target=time;this.generation++;this.render(null);
+    return this.schedule();
+  }
+  seek(time, force=false) {
+    if (!Number.isFinite(time) || time<0) return Promise.resolve();
+    if (force || time<this.target) {this.generation++; this.render(null);}
+    this.target=time;
+    return this.schedule();
+  }
+  schedule() {
+    if(this.failed) return Promise.resolve();
+    if(!this.running) this.running=this.drain().catch(error=>{
+      this.failed=true; this.render(null); this.onError(error);
+    }).finally(()=>{this.running=null;});
+    return this.running;
+  }
+  async drain() {
+    while(true) {
+      const generation=this.generation;
+      if(this.applied!==generation) {
+        await this.api('/api/reset',{config:this.config});
+        if(generation!==this.generation) continue;
+        await this.api('/api/activity',{activity:this.activityAt(0)});
+        if(generation!==this.generation) continue;
+        this.index=0; this.activityIndex=1; this.applied=generation;
+      }
+      const row=this.rows[this.index];
+      const change=this.activityChanges[this.activityIndex];
+      if(change && change.time<=this.target && (!row || change.time<=row.time)) {
+        await this.api('/api/activity',{activity:change.activity});
+        if(generation!==this.generation) continue;
+        this.activityIndex++;continue;
+      }
+      if(!row || row.time>this.target) return;
+      const state=await this.api('/api/observe',row);
+      if(generation!==this.generation) continue;
+      this.index++;
+      if(state.time<=this.target) this.render(state);
+    }
+  }
+}
+function indicatorLabel(state) {
+  return ({active:'إشارة مستمرة',candidate:'قيد التحقق الزمني',inactive:'لم تُرصد الإشارة',
+    unobservable:'غير قابل للرصد',not_applicable:'غير منطبق'})[state] || 'غير قابل للرصد';
+}
+function visibleAlert(alert, time, snoozedUntil) {
+  return alert && typeof alert.evidence_time==='number' && alert.evidence_time<=time && time>=snoozedUntil ? alert : null;
+}
+if (typeof document !== 'undefined') {
+  const $=id=>document.getElementById(id), video=$('video');
+  const labels={orientation:'الاتجاه بعيداً عن المهمة',body_motion:'حركة الجسم',out_of_seat:'مغادرة المقعد',hand_motion:'حركة اليدين',posture_change:'تغيّر الوضعية'};
+  let bundle=null, trackingHash=null, videoHash=null, blobUrl=null, matched=false, fileGeneration=0, jsonGeneration=0;
+  let contextDocument=null, contextRawBytes=null, contextHash=null, contextServerValid=false;
+  let contextActive=false, contextFailure='', contextSegment=null;
+  let contextFileGeneration=0, contextValidationGeneration=0;
+  let currentState=null, latestAlert=null, snoozedUntil=0, mediaReady=false;
+  const token=document.querySelector('meta[name="aba-token"]').content;
+  const number=new Intl.NumberFormat('ar',{maximumFractionDigits:1});
+  const seconds=v=>typeof v==='number' && Number.isFinite(v) ? number.format(v)+' ث' : '—';
+  const clock=t=>{t=Number.isFinite(t)?Math.max(0,t):0;return String(Math.floor(t/60)).padStart(2,'0')+':'+String(Math.floor(t%60)).padStart(2,'0');};
+  function error(message) {$('error').hidden=!message;$('error').textContent=message||'';}
+  async function api(path,payload) {
+    const response=await fetch(path,{method:'POST',headers:{'Content-Type':'application/json','X-ABA-Token':token},body:JSON.stringify(payload)});
+    const result=await response.json();
+    if(!response.ok) throw new Error(result.error || 'تعذر إكمال الطلب المحلي.');
+    return result;
+  }
+  function setContextReviewControls(enabled,state='pending') {
+    const controls={pending:$('contextReviewPending'),confirmed:$('contextReviewConfirm'),rejected:$('contextReviewReject')};
+    Object.entries(controls).forEach(([value,button])=>{
+      button.disabled=!enabled;
+      button.setAttribute('aria-pressed',String(enabled&&value===state));
+    });
+  }
+  function renderContextAt(time) {
+    contextSegment=contextActive ? visibleContextSegment(contextDocument.context_segments,time) : null;
+    $('contextEvidence').replaceChildren();
+    $('contextCard').hidden=!contextSegment;
+    $('contextEmpty').hidden=Boolean(contextSegment);
+    if(!contextSegment) {
+      setContextReviewControls(false);
+      $('contextEmpty').textContent=contextActive ?
+        'لا توجد نافذة سياق مكتملة حتى موضع العرض الحالي. تظهر النافذة فقط بعد بلوغ وقت نهايتها.' :
+        'لا يوجد سياق مرئي مفعّل. استيراده اختياري ولا يؤثر في نتائج التتبع.';
+      $('contextReviewStatus').textContent='لا تغيّر المراجعة ملف السياق أو محرك المؤشرات.';
+      return;
+    }
+    $('contextActivity').textContent=CONTEXT_LABELS.activity_suggestion[contextSegment.activity_suggestion];
+    $('contextActivityStatus').textContent=CONTEXT_LABELS.activity_status[contextSegment.activity_status];
+    $('contextMaterial').textContent=CONTEXT_LABELS.interaction[contextSegment.target_material_interaction];
+    $('contextAdult').textContent=CONTEXT_LABELS.interaction[contextSegment.adult_target_interaction_visible];
+    contextSegment.evidence_times.filter(evidenceTime=>evidenceTime<=time).forEach(evidenceTime=>{
+      const button=document.createElement('button');
+      button.type='button';button.textContent=clock(evidenceTime);
+      button.setAttribute('aria-label','انتقل إلى دليل السياق عند '+clock(evidenceTime));
+      button.addEventListener('click',()=>seekEvidence(evidenceTime));
+      $('contextEvidence').append(button);
+    });
+    if(!$('contextEvidence').children.length)$('contextEvidence').textContent='لا توجد أوقات دليل مرئية لهذه الحالة.';
+    let review=contextSegment.clinician_confirmation;
+    try{review=readContextReview(localStorage,contextDocument.source_sha256,
+      contextDocument.tracking_candidate_sha256,contextHash,contextSegment.segment_id,review);}
+    catch(e){$('contextReviewStatus').textContent='تعذر قراءة المراجعة المحلية: '+e.message;}
+    setContextReviewControls(true,review);
+    $('contextReviewStatus').textContent='حالة المراجعة المحلية: '+CONTEXT_LABELS.review[review]+'. لا يتغير الملف المستورد أو محرك المؤشرات.';
+  }
+  function synchronizeContext() {
+    contextActive=Boolean(contextServerValid&&matched&&contextMatches(contextDocument,bundle,videoHash,trackingHash));
+    $('contextPanel').setAttribute('aria-disabled',String(!contextActive));
+    $('contextBadge').classList.toggle('precomputed',contextActive);
+    $('contextBadge').textContent=contextActive?'مطابق · للعرض فقط':contextFailure?'مرفوض':'غير مفعّل';
+    const disclosure=contextActive?contextProvenanceDisclosure(contextDocument.provenance):null;
+    $('contextProvenance').hidden=!disclosure;
+    if(disclosure){$('contextProvenanceSummary').textContent=disclosure.summary;$('contextProvenanceDetail').textContent=disclosure.detail;}
+    if(contextActive) $('contextStatus').textContent='تطابقت بصمات الفيديو وملف التتبع والسياق. العرض سببي وللمراجعة فقط.';
+    else if(contextFailure) $('contextStatus').textContent='لم يُقبل ملف السياق: '+contextFailure+' يستمر عرض التتبع دون تغيير.';
+    else if(!contextDocument) $('contextStatus').textContent='السياق المرئي اختياري ولا يؤثر في إعادة تشغيل التتبع.';
+    else if(!mediaReady) $('contextStatus').textContent='ملف السياق محمّل؛ بانتظار فيديو صالح للتحقق الزمني.';
+    else if(!contextServerValid) $('contextStatus').textContent='جارٍ التحقق المحلي من مخطط السياق…';
+    else if(!bundle||!trackingHash) $('contextStatus').textContent='السياق صالح؛ بانتظار ملف التتبع وحساب بصمة بايتاته.';
+    else if(contextDocument.source_sha256!==videoHash||bundle.source.sha256!==videoHash)
+      $('contextStatus').textContent='السياق غير مفعّل: بصمة مصدر الفيديو لا تتطابق.';
+    else $('contextStatus').textContent='السياق غير مفعّل: بصمة بايتات ملف التتبع لا تتطابق.';
+    renderContextAt(video.currentTime);
+  }
+  async function validateLoadedContext() {
+    const generation=++contextValidationGeneration;
+    contextServerValid=false;contextFailure='';synchronizeContext();
+    if(!contextDocument||!contextRawBytes||!mediaReady)return;
+    try {
+      await validateContextBytes(fetch,token,contextRawBytes,video.duration);
+      if(generation!==contextValidationGeneration)return;
+      contextServerValid=true;synchronizeContext();
+    } catch(e) {
+      if(generation!==contextValidationGeneration)return;
+      contextFailure=e.message;synchronizeContext();
+    }
+  }
+  function setContextReview(value) {
+    if(!contextActive||!contextSegment)return;
+    try {
+      writeContextReview(localStorage,contextDocument.source_sha256,
+        contextDocument.tracking_candidate_sha256,contextHash,contextSegment.segment_id,value);
+      renderContextAt(video.currentTime);
+    } catch(e) {$('contextReviewStatus').textContent='لم تُحفظ المراجعة المحلية: '+e.message;}
+  }
+  function showAlert() {
+    const alert=player.activityAt(video.currentTime)==='table' ? visibleAlert(latestAlert,video.currentTime,snoozedUntil) : null;
+    $('alertCard').hidden=!alert; $('alertEmpty').hidden=Boolean(alert);
+    $('saveReview').disabled=!alert; $('feedback').disabled=!alert;
+    if(alert) {
+      $('alertTitle').textContent=labels[alert.type]||'إشارة مرئية';
+      $('alertEvidence').textContent='دليل عند '+clock(alert.evidence_time)+' · مدة مرصودة '+seconds(alert.duration);
+    } else if(snoozedUntil>video.currentTime) {
+      $('alertEmpty').textContent='الإشعارات مكتومة حتى '+clock(snoozedUntil)+' من الفيديو. يستمر الرصد والخط الزمني.';
+    } else $('alertEmpty').textContent='لا توجد إشارة معروضة. عدم ظهور تنبيه لا يعني غياب السلوك.';
+  }
+  function updateCards() {
+    const stale=currentState && video.currentTime-currentState.time>2;
+    document.querySelectorAll('[data-indicator]').forEach(card=>{
+      const item=currentState?.indicators[card.dataset.indicator];
+      const activity=player.activityAt(video.currentTime);
+      const applicable=activity!=='break' && !(activity==='movement' && ['orientation','out_of_seat'].includes(card.dataset.indicator));
+      const state=!applicable?'not_applicable':stale?'unobservable':item?.state;
+      card.dataset.state=state||'unobservable'; card.querySelector('.state').textContent=indicatorLabel(state);
+      card.querySelector('.duration').textContent=stale?'—':seconds(item?.duration);
+      card.querySelector('.count').textContent=item?number.format(item.count):'—';
+      card.querySelector('.observable').textContent=seconds(item?.observable_seconds);
+    });
+    $('sampleStatus').textContent=currentState ? 'آخر عينة '+clock(currentState.time)+' · '+(stale?'فجوة رصد؛ الحالة الحالية مجهولة':'المدد محسوبة من العينات فقط') : 'بانتظار بيانات مرصودة · لا توجد نتائج افتراضية';
+    $('identityStatus').textContent=currentState ? (stale || currentState.identity!=='confirmed' ? 'هوية الهدف غير مؤكدة — المؤشرات غير قابلة للرصد' : 'هوية الهدف مؤكدة في العينة المستوردة') : 'الطفل المستهدف: لم تُحمّل بيانات الهوية';
+  }
+  function seekEvidence(time) {
+    if(!mediaReady || !Number.isFinite(time) || time>video.currentTime) return;
+    video.pause(); video.currentTime=Math.max(0,time); player.seek(video.currentTime);
+  }
+  function render(state) {
+    currentState=state;
+    if(!state) latestAlert=null;
+    else if(state.alert) latestAlert=state.alert;
+    else if(latestAlert) latestAlert=state.events.find(e=>e.id===latestAlert.id)||null;
+    updateCards(); showAlert();
+    const events=(state?.events||[]).filter(e=>typeof e.evidence_time==='number' && e.evidence_time<=video.currentTime);
+    $('timeline').replaceChildren();
+    events.slice(-150).reverse().forEach(event=>{
+      const li=document.createElement('li'),time=document.createElement('time'),text=document.createElement('span'),button=document.createElement('button');
+      time.textContent=clock(event.evidence_time);text.textContent=(labels[event.type]||'مؤشر مرئي')+' · '+seconds(event.duration);
+      button.textContent='راجع اللقطة';button.setAttribute('aria-label','راجع '+text.textContent+' عند '+time.textContent);
+      button.addEventListener('click',()=>seekEvidence(event.evidence_time));li.append(time,text,button);$('timeline').append(li);
+    });
+    $('timelineEmpty').hidden=events.length>0;
+    $('eventCount').textContent=events.length ? number.format(events.length)+' حدث مرصود'+(events.length>150?' · عرض آخر ١٥٠':'') : 'لا أحداث مرصودة';
+  }
+  const player=new CausalPlayer(api,render,e=>{video.pause();error('توقف حساب المؤشرات: '+e.message+' أعد استيراد النتائج للمحاولة.');});
+  async function synchronizeSource() {
+    matched=sourceMatches(bundle,videoHash) && mediaReady;
+    $('modeBadge').classList.toggle('precomputed',Boolean(bundle));
+    $('modeBadge').textContent=bundle ? 'مسبق الحساب · ليس استدلالاً جديداً'+(matched?'':' · بانتظار المطابقة') : 'لم تُحمّل بيانات تحليل';
+    $('provenance').textContent=provenanceLabel(bundle?.provenance);
+    $('provenance').hidden=!bundle?.provenance;
+    if(bundle && videoHash && !sourceMatches(bundle,videoHash)) {
+      $('sourceStatus').textContent='رفض النتائج: بصمة الفيديو لا تطابق ملف JSON.';
+      error('عدم تطابق SHA-256. اختر الفيديو الأصلي الذي استُخدم لإنشاء هذا الملف. لن تُعرض هذه النتائج.');
+    } else if(matched) {
+      $('sourceStatus').textContent='تطابقت بصمة SHA-256 · '+number.format(bundle.observations.length)+' عينة مسبقة الحساب.';
+      error('');
+    } else $('sourceStatus').textContent=bundle ? 'النتائج محمّلة؛ بانتظار فيديو صالح وحساب بصمته.' : 'اختر ملف النتائج المطابق من Colab لتفعيل المؤشرات.';
+    player.target=video.currentTime||0;
+    await player.configure(matched?bundle.observations:[],$('activity').value);
+    synchronizeContext();
+  }
+  async function loadVideo(file) {
+    if(!file)return;
+    const generation=++fileGeneration;
+    video.pause(); mediaReady=false; videoHash=null; matched=false; snoozedUntil=0;
+    ++contextValidationGeneration;contextServerValid=false;contextFailure='';
+    $('play').disabled=true;$('restart').disabled=true;
+    await player.configure([],$('activity').value);
+    if(generation!==fileGeneration)return;
+    error('');if(blobUrl)URL.revokeObjectURL(blobUrl);
+    blobUrl=URL.createObjectURL(file); video.src=blobUrl;video.hidden=false;$('videoEmpty').hidden=true;
+    $('fileName').textContent=file.name;$('sourceStatus').textContent='جارٍ حساب بصمة الفيديو محلياً…';
+    $('modeBadge').textContent='فيديو محلي فقط · لا استدلال جديد';
+    try {
+      const rawBytes=new Uint8Array(await file.arrayBuffer());
+      if(generation!==fileGeneration)return;
+      videoHash=await sha256Hex(rawBytes);
+      if(generation!==fileGeneration)return;
+      await synchronizeSource();
+    } catch(e) {if(generation===fileGeneration)error('تعذر حساب بصمة الفيديو. جرّب مقطعاً أصغر على عنوان 127.0.0.1. '+e.message);}
+  }
+  $('videoFile').addEventListener('change',e=>loadVideo(e.target.files[0]));
+  $('changeVideo').addEventListener('change',e=>loadVideo(e.target.files[0]));
+  $('jsonFile').addEventListener('change',async e=>{
+    const file=e.target.files[0];if(!file)return;
+    const generation=++jsonGeneration;
+    video.pause();bundle=null;trackingHash=null;matched=false;snoozedUntil=0;synchronizeContext();
+    await player.configure([],$('activity').value);
+    try {
+      if(file.size>20*1024*1024)throw new Error('ملف النتائج أكبر من ٢٠ ميغابايت.');
+      const rawBytes=new Uint8Array(await file.arrayBuffer());
+      const parsed=parseDataset(decodeJsonBytes(rawBytes));
+      const rawHash=await sha256Hex(rawBytes);
+      if(generation!==jsonGeneration)return;
+      bundle=parsed;trackingHash=rawHash;$('jsonName').textContent=file.name;await synchronizeSource();
+    } catch(e) {
+      if(generation!==jsonGeneration)return;
+      await synchronizeSource();error('لم يُقبل ملف النتائج: '+e.message);$('jsonName').textContent='ملف غير صالح — لم تُفعّل النتائج';
+    }
+  });
+  $('contextFile').addEventListener('change',async e=>{
+    const file=e.target.files[0];if(!file)return;
+    const generation=++contextFileGeneration;
+    ++contextValidationGeneration;contextDocument=null;contextRawBytes=null;contextHash=null;
+    contextServerValid=false;contextFailure='';$('contextName').textContent='جارٍ فحص '+file.name+'…';synchronizeContext();
+    try {
+      if(file.size>20*1024*1024)throw new Error('ملف السياق أكبر من ٢٠ ميغابايت.');
+      const rawBytes=new Uint8Array(await file.arrayBuffer());
+      const rawHash=await sha256Hex(rawBytes);
+      const parsed=parseContextJsonBytes(rawBytes);
+      if(generation!==contextFileGeneration)return;
+      contextRawBytes=rawBytes;contextHash=rawHash;contextDocument=freezeContextDocument(parsed);
+      $('contextName').textContent=file.name;
+      await validateLoadedContext();
+    } catch(e) {
+      if(generation!==contextFileGeneration)return;
+      contextDocument=null;contextRawBytes=null;contextServerValid=false;contextFailure=e.message;
+      $('contextName').textContent='ملف سياق غير صالح — لم يُفعّل';synchronizeContext();
+    }
+  });
+  video.addEventListener('loadedmetadata',()=>{
+    mediaReady=Number.isFinite(video.duration)&&video.duration>0;
+    $('play').disabled=!mediaReady;$('restart').disabled=!mediaReady;
+    $('clock').textContent=clock(video.currentTime)+' / '+clock(video.duration);
+    synchronizeSource();validateLoadedContext();
+  });
+  video.addEventListener('error',()=>{mediaReady=false;matched=false;++contextValidationGeneration;contextServerValid=false;synchronizeContext();$('play').disabled=true;$('restart').disabled=true;player.configure([],$('activity').value);error('تعذر تشغيل الفيديو. استخدم ملفاً صالحاً بترميز يدعمه المتصفح مثل MP4/H.264.');});
+  function tick(){
+    $('clock').textContent=clock(video.currentTime)+' / '+clock(video.duration);
+    if(matched)player.seek(video.currentTime);
+    $('activity').value=player.activityAt(video.currentTime);
+    updateCards();showAlert();renderContextAt(video.currentTime);
+  }
+  video.addEventListener('timeupdate',tick);video.addEventListener('seeking',tick);
+  video.addEventListener('play',()=>{$('play').textContent='إيقاف مؤقت';});
+  video.addEventListener('pause',()=>{$('play').textContent='تشغيل';});
+  $('play').addEventListener('click',async()=>{if(video.paused){try{await video.play();}catch(e){error('تعذر التشغيل: '+e.message);}}else video.pause();});
+  $('restart').addEventListener('click',()=>{video.pause();video.currentTime=0;snoozedUntil=0;player.seek(0,true);});
+  $('activity').addEventListener('change',()=>{video.pause();snoozedUntil=0;player.setActivity($('activity').value,video.currentTime).then(()=>{updateCards();showAlert();});});
+  $('seekEvidence').addEventListener('click',()=>{if(latestAlert)seekEvidence(latestAlert.evidence_time);});
+  $('snooze').addEventListener('click',()=>{snoozedUntil=video.currentTime+60;showAlert();});
+  $('contextReviewPending').addEventListener('click',()=>setContextReview('pending'));
+  $('contextReviewConfirm').addEventListener('click',()=>setContextReview('confirmed'));
+  $('contextReviewReject').addEventListener('click',()=>setContextReview('rejected'));
+  $('saveReview').addEventListener('click',()=>{
+    const alert=visibleAlert(latestAlert,video.currentTime,snoozedUntil);if(!alert||!videoHash)return;
+    try {
+      const key='aba-demo-reviews-v1',saved=JSON.parse(localStorage.getItem(key)||'[]');
+      if(!Array.isArray(saved))throw new Error('صيغة التخزين غير صالحة');
+      saved.push({source_sha256:videoHash,event_id:alert.id,evidence_time:alert.evidence_time,activity:$('activity').value,feedback:$('feedback').value});
+      localStorage.setItem(key,JSON.stringify(saved));
+      if(JSON.parse(localStorage.getItem(key)).length!==saved.length)throw new Error('تعذر التحقق من الحفظ');
+      $('reviewStatus').textContent='حُفظت الملاحظة في هذا المتصفح فقط. لم يتغير النموذج أو التنبيه.';
+    }catch(e){$('reviewStatus').textContent='لم تُحفظ الملاحظة: '+e.message;}
+  });
+  fetch('/health').then(r=>{if(!r.ok)throw new Error();return r.json();}).then(()=>{$('systemStatus').textContent='الخادم المحلي متصل · لا تحليل تلقائي';}).catch(()=>{$('systemStatus').textContent='الخادم غير متصل';error('شغّل python -m aba_demo.server ثم افتح http://127.0.0.1:8766.');});
+  window.addEventListener('beforeunload',()=>{if(blobUrl)URL.revokeObjectURL(blobUrl);});
+}
+</script>
+</body></html>

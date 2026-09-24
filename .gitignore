@@ -1,0 +1,58 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env*
+*.env
+.ipynb_checkpoints/
+
+# Private inputs, analyses, generated bundles and local work
+recordings/
+demo_outputs/
+artifacts/
+fixtures/
+outputs/
+outputs_*/
+.hermes/
+*.pending.json
+*_candidate.json
+observations*.json
+context-review-report.json
+context.json
+# Review artifacts can have arbitrary basenames/output roots. Only force-add
+# an intentionally public JSON/schema/fixture after explicit content review.
+*.json
+*.jsonl
+*.csv
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Media and model artifacts are never repository input
+*.mp4
+*.mov
+*.avi
+*.m4v
+*.mpeg
+*.mpg
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.pdf
+*.docx
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# An ignore rule is not a substitute for reviewing each staged file/history.
