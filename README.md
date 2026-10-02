@@ -1,5 +1,10 @@
 # ABA Visual Observation Demo
 
+> **Live-session workstream (proposal under review):** this repository adds a
+> separate live-session prototype on top of the demo below. Start with
+> [LIVE_WORKSTREAM.md](LIVE_WORKSTREAM.md) for what was built, how to run it,
+> what is verified, and the decisions that are pending.
+
 An **experimental, recorded-video demonstration** for an ABA therapist. It is
 not a clinical product, a diagnostic tool, a behavior-function assessment, or a
 treatment recommender. A therapist selects the target child, reviews observable
